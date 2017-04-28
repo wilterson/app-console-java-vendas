@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Cliente</OriginalElement>
+  <nodes>
+    <node x="398.0" y="349.0">MateriaPrima</node>
+    <node x="116.0" y="350.0">MenuCliente</node>
+    <node x="191.0" y="438.0">Empresa</node>
+    <node x="116.0" y="172.0">TipoProduto</node>
+    <node x="431.0" y="169.0">Vendedor</node>
+    <node x="508.0" y="438.0">Data</node>
+    <node x="443.75" y="-3.0">Pessoa</node>
+    <node x="-124.99999999999997" y="0.0">java.io.Serializable</node>
+    <node x="-45.0" y="172.0">TipoUsuario</node>
+    <node x="356.5" y="83.0">Funcionario</node>
+    <node x="-145.0" y="438.0">Programa</node>
+    <node x="-46.0" y="350.0">MenuAdmin</node>
+    <node x="354.0" y="438.0">Vendas</node>
+    <node x="-23.5" y="86.0">java.lang.Enum</node>
+    <node x="303.0" y="169.0">Diretor</node>
+    <node x="33.00000000000003" y="0.0">java.lang.Comparable</node>
+    <node x="-241.0" y="350.0">MenuFuncionario</node>
+    <node x="-219.0" y="172.0">StatusProduto</node>
+    <node x="-24.0" y="264.0">Menu</node>
+    <node x="26.0" y="438.0">Produtos</node>
+    <node x="514.5" y="83.0">Cliente</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="StatusProduto" target="java.lang.Enum">
+      <point x="0.0" y="-18.0" />
+      <point x="-142.0" y="147.0" />
+      <point x="-7.166666666666629" y="147.0" />
+      <point x="-32.66666666666666" y="18.0" />
+    </edge>
+    <edge source="MenuFuncionario" target="Menu">
+      <point x="0.0" y="-18.0" />
+      <point x="-153.5" y="325.0" />
+      <point x="-7.666666666666657" y="325.0" />
+      <point x="-32.66666666666666" y="18.0" />
+    </edge>
+    <edge source="TipoUsuario" target="java.lang.Enum">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="Cliente" target="Pessoa">
+      <point x="0.0" y="-18.0" />
+      <point x="568.0" y="58.0" />
+      <point x="523.25" y="58.0" />
+      <point x="26.5" y="18.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.io.Serializable">
+      <point x="-24.5" y="-18.0" />
+      <point x="1.0" y="61.0" />
+      <point x="-55.99999999999997" y="61.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="MenuCliente" target="Menu">
+      <point x="0.0" y="-18.0" />
+      <point x="188.0" y="325.0" />
+      <point x="57.66666666666663" y="325.0" />
+      <point x="32.66666666666663" y="18.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable">
+      <point x="24.5" y="-18.0" />
+      <point x="50.0" y="61.0" />
+      <point x="104.5" y="61.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="Vendedor" target="Funcionario">
+      <point x="0.0" y="-18.0" />
+      <point x="494.0" y="144.0" />
+      <point x="460.0" y="144.0" />
+      <point x="34.5" y="18.0" />
+    </edge>
+    <edge source="Diretor" target="Funcionario">
+      <point x="0.0" y="-18.0" />
+      <point x="357.0" y="144.0" />
+      <point x="391.0" y="144.0" />
+      <point x="-34.5" y="18.0" />
+    </edge>
+    <edge source="MenuAdmin" target="Menu">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="Funcionario" target="Pessoa">
+      <point x="0.0" y="-18.0" />
+      <point x="425.5" y="58.0" />
+      <point x="470.25" y="58.0" />
+      <point x="-26.5" y="18.0" />
+    </edge>
+    <edge source="TipoProduto" target="java.lang.Enum">
+      <point x="0.0" y="-18.0" />
+      <point x="188.0" y="147.0" />
+      <point x="58.16666666666663" y="147.0" />
+      <point x="32.66666666666663" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="373.0" y="354.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
